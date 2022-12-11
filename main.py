@@ -35,7 +35,7 @@ with tab1:
     """, unsafe_allow_html=True)
     st.markdown("""
     Link Repository Github
-    <a href="https://github.com/FajarFatha/Eligibility-Prediction-for-Loan">https://github.com/FajarFatha/Eligibility-Prediction-for-Loan</a>
+    <a href="https://github.com/FajarFatha/monkey-pox-prediction">https://github.com/FajarFatha/monkey-pox-prediction</a>
     """, unsafe_allow_html=True)
 
     st.markdown("""
