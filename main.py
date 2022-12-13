@@ -104,7 +104,7 @@ with tab3:
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,stratify=y, random_state=42)
     algoritma = st.radio(
     "Pilih algoritma klasifikasi",
-    ('KNN','Naive Bayes','Random Forest','Ensemble Stacking'))
+    ('KNN','Naive Bayes','Random Forest'))
     if algoritma=='KNN':
         model = KNeighborsClassifier(n_neighbors=3)
         filename='knn.pkl'
